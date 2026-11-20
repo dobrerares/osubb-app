@@ -58,6 +58,7 @@ Deny-by-default RLS on every table; membership predicate on every policy; `secur
 
 - **(user)** Nothing in the repository is out of scope (staging, previews, mockup/, docs/ included).
 - **(user)** Superseded 2026-11-20: BC/Moderator were first called trusted insiders; the owner then ruled that their accounts may be compromised, so issues requiring BC/Moderator privileges are **not** accepted risk.
+- **(user)** Accepted risk: a compromised BC/Moderator account redirecting another Member's Email Digest by editing that Member's profile email (ruled not relevant 2026-11-20).
 - Documented design decision (ADR-0003, not restated by the user): stale JWT claims for up to one hour after deactivation/demotion affect reads only.
 
 ## Finding tags
